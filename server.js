@@ -8,6 +8,9 @@ const connectDB=require('./config/db');
 //Connect to the database ,using a method created in db.js 
 connectDB();
 
+app.use(express.json({ extended : false }));//will allows us to get the data in req.body in user.js 
+
+ 
 app.get('/', (req, res) => res.send('API running'));
 
 app.use('/api/users', require('./routes/api/users'));

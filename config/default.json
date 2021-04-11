@@ -1,5 +1,6 @@
 {
     
-    "mongoURI":"mongodb+srv://nasro:05081999@cluster0.udxsh.mongodb.net/test?retryWrites=true&w=majority"
+    "mongoURI":"mongodb+srv://nasro:05081999@cluster0.udxsh.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "mysecretToken"
 
 } 

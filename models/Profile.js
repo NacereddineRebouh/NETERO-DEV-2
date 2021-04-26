@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const ProfileSchema = mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: "UserRef",
+    ref: "users", //ref field means in which collection the id mentioned is going to be searched for
   },
   company: {
     type: String,

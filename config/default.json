@@ -1,6 +1,8 @@
 {
     
     "mongoURI":"mongodb+srv://nasro:05081999@cluster0.udxsh.mongodb.net/test?retryWrites=true&w=majority",
-    "jwtSecret": "mysecretToken"
+    "jwtSecret": "mysecretToken",
+    "githubClientId":"062c9d27326a3abeab43",
+    "githubSecret": "b98925327ffda7dc1fe21f1d22630e8e7f8ff635"
 
 } 
